@@ -1,12 +1,15 @@
 import datetime as dt
 
 from airflow import DAG
-from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
+import rpy2.robjects as robjects
 
 
-def print_world():
-    print('world')
+def run_r(file_path):
+    r = robjects.r
+    r['source'](file_path)
+
+
 
 
 default_args = {
@@ -17,17 +20,15 @@ default_args = {
 }
 
 
-with DAG('airflow_tutorial_v01',
+with DAG('matches_links',
          default_args=default_args,
-         schedule_interval='0 * * * *',
+         schedule_interval="@daily"
          ) as dag:
 
-    print_hello = BashOperator(task_id='print_hello',
-                               bash_command='echo "hello"')
-    sleep = BashOperator(task_id='sleep',
-                         bash_command='sleep 5')
-    print_world = PythonOperator(task_id='print_world',
-                                 python_callable=print_world)
+    
+    get_rugby_pass_match_data = PythonOperator(task_id='get_rugby_pass_match_data',
+                                 python_callable=run_r,
+                                 op_kwargs= "Users/harry/rugby_data_project_airflow/R/scripts/create_matches_table.R")
 
 
-print_hello >> sleep >> print_world
+
