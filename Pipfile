@@ -8,6 +8,7 @@ flask = "*"
 apache-airflow = "*"
 apache-airflow-providers-postgres = "*"
 rpy2 = "*"
+black = "*"
 
 [dev-packages]
 autopep8 = "*"
