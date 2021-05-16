@@ -47,6 +47,8 @@ for (tournement_link in tournement_links){
   
   comp_name <- str_extract_all(tournement_link,"(?<=com/)[a-z0-9-]+") %>%
     str_replace_all("-", "_") 
+  
+  print(paste("Getting", comp_name, "links"))
 
   links <- get_rugby_pass_links(tournement_link)
 
@@ -71,6 +73,7 @@ if(file.exists( csv_file )){
       write_csv(csv_file)
 }
 
+  print(paste(comp_name, "saved"))
 
 }
 
