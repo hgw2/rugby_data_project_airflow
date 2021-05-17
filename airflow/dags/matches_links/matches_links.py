@@ -3,7 +3,7 @@ import datetime as dt
 from airflow import DAG
 from airflow.operators.bash import BashOperator
 from airflow.operators.latest_only import LatestOnlyOperator
-import rpy2.robjects as robjects
+from airflow.operators.postgres_operator import PostgresOperator
 
 
 default_args = {

@@ -240,3 +240,7 @@ vignettes/*.pdf
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/r,python,macos,visualstudiocode
+
+#airflow
+airflow/*
+!airflow/dags/*
