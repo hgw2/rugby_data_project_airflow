@@ -39,7 +39,7 @@ links = {
 execution_date = "{{ ds }}"
 
 with DAG(
-    "matches_links", default_args=default_args, schedule_interval="0 10 * * *"
+    "matches_links", default_args=default_args, schedule_interval="0 09 * * *"
 ) as dag:
     
     latest_only = LatestOnlyOperator(task_id="latest_only")
@@ -50,5 +50,5 @@ with DAG(
             task_id=f"get_{comp}_links",
             bash_command=f"Rscript /Users/harry/rugby_data_project_airflow/R/scripts/create_matches_table.R {link} {execution_date}",
         )
-
+        
         latest_only >> get_rugby_pass_match_data 
