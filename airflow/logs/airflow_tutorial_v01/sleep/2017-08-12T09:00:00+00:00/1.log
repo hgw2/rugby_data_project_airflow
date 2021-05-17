@@ -1,0 +1,26 @@
+[2021-05-16 09:46:33,062] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: airflow_tutorial_v01.sleep 2017-08-12T09:00:00+00:00 [queued]>
+[2021-05-16 09:46:33,069] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: airflow_tutorial_v01.sleep 2017-08-12T09:00:00+00:00 [queued]>
+[2021-05-16 09:46:33,069] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-16 09:46:33,069] {taskinstance.py:1069} INFO - Starting attempt 1 of 2
+[2021-05-16 09:46:33,069] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-16 09:46:33,073] {taskinstance.py:1089} INFO - Executing <Task(BashOperator): sleep> on 2017-08-12T09:00:00+00:00
+[2021-05-16 09:46:33,075] {standard_task_runner.py:52} INFO - Started process 60164 to run task
+[2021-05-16 09:46:33,082] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'airflow_tutorial_v01', 'sleep', '2017-08-12T09:00:00+00:00', '--job-id', '5228', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/Untitled.py', '--cfg-path', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmpj6vp56i3', '--error-file', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmpo73nt4i8']
+[2021-05-16 09:46:33,083] {standard_task_runner.py:77} INFO - Job 5228: Subtask sleep
+[2021-05-16 09:46:33,114] {logging_mixin.py:104} INFO - Running <TaskInstance: airflow_tutorial_v01.sleep 2017-08-12T09:00:00+00:00 [running]> on host 1.0.0.127.in-addr.arpa
+[2021-05-16 09:46:33,138] {taskinstance.py:1281} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=me
+AIRFLOW_CTX_DAG_ID=airflow_tutorial_v01
+AIRFLOW_CTX_TASK_ID=sleep
+AIRFLOW_CTX_EXECUTION_DATE=2017-08-12T09:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2017-08-12T09:00:00+00:00
+[2021-05-16 09:46:33,139] {bash.py:135} INFO - Tmp dir root location: 
+ /var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T
+[2021-05-16 09:46:33,140] {bash.py:158} INFO - Running command: sleep 5
+[2021-05-16 09:46:33,146] {bash.py:169} INFO - Output:
+[2021-05-16 09:46:38,154] {bash.py:177} INFO - Command exited with return code 0
+[2021-05-16 09:46:38,166] {taskinstance.py:1185} INFO - Marking task as SUCCESS. dag_id=airflow_tutorial_v01, task_id=sleep, execution_date=20170812T090000, start_date=20210516T084633, end_date=20210516T084638
+[2021-05-16 09:46:38,179] {taskinstance.py:1246} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-05-16 09:46:38,204] {local_task_job.py:146} INFO - Task exited with return code 0

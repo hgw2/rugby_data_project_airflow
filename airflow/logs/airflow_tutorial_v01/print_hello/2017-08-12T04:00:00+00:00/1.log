@@ -1,0 +1,27 @@
+[2021-05-16 09:44:04,256] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: airflow_tutorial_v01.print_hello 2017-08-12T04:00:00+00:00 [queued]>
+[2021-05-16 09:44:04,266] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: airflow_tutorial_v01.print_hello 2017-08-12T04:00:00+00:00 [queued]>
+[2021-05-16 09:44:04,266] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-16 09:44:04,266] {taskinstance.py:1069} INFO - Starting attempt 1 of 2
+[2021-05-16 09:44:04,266] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-16 09:44:04,275] {taskinstance.py:1089} INFO - Executing <Task(BashOperator): print_hello> on 2017-08-12T04:00:00+00:00
+[2021-05-16 09:44:04,277] {standard_task_runner.py:52} INFO - Started process 59542 to run task
+[2021-05-16 09:44:04,289] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'airflow_tutorial_v01', 'print_hello', '2017-08-12T04:00:00+00:00', '--job-id', '5208', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/Untitled.py', '--cfg-path', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmpzmkhj0xr', '--error-file', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmp0uuhei9f']
+[2021-05-16 09:44:04,291] {standard_task_runner.py:77} INFO - Job 5208: Subtask print_hello
+[2021-05-16 09:44:04,341] {logging_mixin.py:104} INFO - Running <TaskInstance: airflow_tutorial_v01.print_hello 2017-08-12T04:00:00+00:00 [running]> on host 1.0.0.127.in-addr.arpa
+[2021-05-16 09:44:04,383] {taskinstance.py:1281} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=me
+AIRFLOW_CTX_DAG_ID=airflow_tutorial_v01
+AIRFLOW_CTX_TASK_ID=print_hello
+AIRFLOW_CTX_EXECUTION_DATE=2017-08-12T04:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2017-08-12T04:00:00+00:00
+[2021-05-16 09:44:04,384] {bash.py:135} INFO - Tmp dir root location: 
+ /var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T
+[2021-05-16 09:44:04,385] {bash.py:158} INFO - Running command: echo "hello"
+[2021-05-16 09:44:04,396] {bash.py:169} INFO - Output:
+[2021-05-16 09:44:04,401] {bash.py:173} INFO - hello
+[2021-05-16 09:44:04,402] {bash.py:177} INFO - Command exited with return code 0
+[2021-05-16 09:44:04,423] {taskinstance.py:1185} INFO - Marking task as SUCCESS. dag_id=airflow_tutorial_v01, task_id=print_hello, execution_date=20170812T040000, start_date=20210516T084404, end_date=20210516T084404
+[2021-05-16 09:44:04,445] {taskinstance.py:1246} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-05-16 09:44:04,470] {local_task_job.py:146} INFO - Task exited with return code 0

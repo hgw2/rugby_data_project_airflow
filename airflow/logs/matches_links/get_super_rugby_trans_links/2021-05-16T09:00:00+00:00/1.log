@@ -1,0 +1,56 @@
+[2021-05-17 10:02:58,521] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: matches_links.get_super_rugby_trans_links 2021-05-16T09:00:00+00:00 [queued]>
+[2021-05-17 10:02:58,528] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: matches_links.get_super_rugby_trans_links 2021-05-16T09:00:00+00:00 [queued]>
+[2021-05-17 10:02:58,528] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-17 10:02:58,528] {taskinstance.py:1069} INFO - Starting attempt 1 of 2
+[2021-05-17 10:02:58,528] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-17 10:02:58,532] {taskinstance.py:1089} INFO - Executing <Task(BashOperator): get_super_rugby_trans_links> on 2021-05-16T09:00:00+00:00
+[2021-05-17 10:02:58,534] {standard_task_runner.py:52} INFO - Started process 38741 to run task
+[2021-05-17 10:02:58,541] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'matches_links', 'get_super_rugby_trans_links', '2021-05-16T09:00:00+00:00', '--job-id', '16', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/matches_links/matches_links.py', '--cfg-path', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmpye6vpy4b', '--error-file', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmp7jdumay0']
+[2021-05-17 10:02:58,542] {standard_task_runner.py:77} INFO - Job 16: Subtask get_super_rugby_trans_links
+[2021-05-17 10:02:58,576] {logging_mixin.py:104} INFO - Running <TaskInstance: matches_links.get_super_rugby_trans_links 2021-05-16T09:00:00+00:00 [running]> on host Henrys-MacBook-Pro.local
+[2021-05-17 10:02:58,598] {taskinstance.py:1281} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=me
+AIRFLOW_CTX_DAG_ID=matches_links
+AIRFLOW_CTX_TASK_ID=get_super_rugby_trans_links
+AIRFLOW_CTX_EXECUTION_DATE=2021-05-16T09:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-05-16T09:00:00+00:00
+[2021-05-17 10:02:58,598] {bash.py:135} INFO - Tmp dir root location: 
+ /var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T
+[2021-05-17 10:02:58,599] {bash.py:158} INFO - Running command: Rscript /Users/harry/rugby_data_project_airflow/R/scripts/create_matches_table.R https://www.rugbypass.com/super-rugby-trans-tasman/matches/ 2021-05-16
+[2021-05-17 10:02:58,607] {bash.py:169} INFO - Output:
+[2021-05-17 10:02:59,583] {bash.py:173} INFO - ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──
+[2021-05-17 10:02:59,587] {bash.py:173} INFO - ✔ ggplot2 3.3.3     ✔ purrr   0.3.3
+[2021-05-17 10:02:59,587] {bash.py:173} INFO - ✔ tibble  3.0.4     ✔ dplyr   1.0.2
+[2021-05-17 10:02:59,588] {bash.py:173} INFO - ✔ tidyr   1.1.2     ✔ stringr 1.4.0
+[2021-05-17 10:02:59,588] {bash.py:173} INFO - ✔ readr   1.3.1     ✔ forcats 0.5.0
+[2021-05-17 10:02:59,661] {bash.py:173} INFO - ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+[2021-05-17 10:02:59,661] {bash.py:173} INFO - ✖ dplyr::filter() masks stats::filter()
+[2021-05-17 10:02:59,662] {bash.py:173} INFO - ✖ dplyr::lag()    masks stats::lag()
+[2021-05-17 10:02:59,668] {bash.py:173} INFO - 
+[2021-05-17 10:02:59,668] {bash.py:173} INFO - Attaching package: ‘lubridate’
+[2021-05-17 10:02:59,669] {bash.py:173} INFO - 
+[2021-05-17 10:02:59,669] {bash.py:173} INFO - The following objects are masked from ‘package:base’:
+[2021-05-17 10:02:59,669] {bash.py:173} INFO - 
+[2021-05-17 10:02:59,670] {bash.py:173} INFO -     date, intersect, setdiff, union
+[2021-05-17 10:02:59,670] {bash.py:173} INFO - 
+[2021-05-17 10:02:59,671] {bash.py:173} INFO - Loading required package: xml2
+[2021-05-17 10:02:59,682] {bash.py:173} INFO - 
+[2021-05-17 10:02:59,682] {bash.py:173} INFO - Attaching package: ‘rvest’
+[2021-05-17 10:02:59,683] {bash.py:173} INFO - 
+[2021-05-17 10:02:59,683] {bash.py:173} INFO - The following object is masked from ‘package:purrr’:
+[2021-05-17 10:02:59,684] {bash.py:173} INFO - 
+[2021-05-17 10:02:59,684] {bash.py:173} INFO -     pluck
+[2021-05-17 10:02:59,685] {bash.py:173} INFO - 
+[2021-05-17 10:02:59,685] {bash.py:173} INFO - The following object is masked from ‘package:readr’:
+[2021-05-17 10:02:59,686] {bash.py:173} INFO - 
+[2021-05-17 10:02:59,686] {bash.py:173} INFO -     guess_encoding
+[2021-05-17 10:02:59,686] {bash.py:173} INFO - 
+[2021-05-17 10:02:59,687] {bash.py:173} INFO - [1] "2021-05-16"
+[2021-05-17 10:02:59,687] {bash.py:173} INFO - [1] "Getting super_rugby_trans_tasman links"
+[2021-05-17 10:03:02,067] {bash.py:173} INFO - [1] "super_rugby_trans_tasman saved"
+[2021-05-17 10:03:02,084] {bash.py:177} INFO - Command exited with return code 0
+[2021-05-17 10:03:02,096] {taskinstance.py:1185} INFO - Marking task as SUCCESS. dag_id=matches_links, task_id=get_super_rugby_trans_links, execution_date=20210516T090000, start_date=20210517T090258, end_date=20210517T090302
+[2021-05-17 10:03:02,110] {taskinstance.py:1246} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-05-17 10:03:02,157] {local_task_job.py:146} INFO - Task exited with return code 0

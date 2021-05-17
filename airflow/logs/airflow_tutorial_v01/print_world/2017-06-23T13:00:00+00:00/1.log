@@ -1,0 +1,23 @@
+[2021-05-15 20:27:44,113] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: airflow_tutorial_v01.print_world 2017-06-23T13:00:00+00:00 [queued]>
+[2021-05-15 20:27:44,119] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: airflow_tutorial_v01.print_world 2017-06-23T13:00:00+00:00 [queued]>
+[2021-05-15 20:27:44,119] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-15 20:27:44,119] {taskinstance.py:1069} INFO - Starting attempt 1 of 2
+[2021-05-15 20:27:44,119] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-15 20:27:44,124] {taskinstance.py:1089} INFO - Executing <Task(PythonOperator): print_world> on 2017-06-23T13:00:00+00:00
+[2021-05-15 20:27:44,126] {standard_task_runner.py:52} INFO - Started process 66171 to run task
+[2021-05-15 20:27:44,132] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'airflow_tutorial_v01', 'print_world', '2017-06-23T13:00:00+00:00', '--job-id', '1637', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/Untitled.py', '--cfg-path', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmpbt4jzmmd', '--error-file', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmp9i_ez9e3']
+[2021-05-15 20:27:44,134] {standard_task_runner.py:77} INFO - Job 1637: Subtask print_world
+[2021-05-15 20:27:44,164] {logging_mixin.py:104} INFO - Running <TaskInstance: airflow_tutorial_v01.print_world 2017-06-23T13:00:00+00:00 [running]> on host 1.0.0.127.in-addr.arpa
+[2021-05-15 20:27:44,185] {taskinstance.py:1281} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=me
+AIRFLOW_CTX_DAG_ID=airflow_tutorial_v01
+AIRFLOW_CTX_TASK_ID=print_world
+AIRFLOW_CTX_EXECUTION_DATE=2017-06-23T13:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2017-06-23T13:00:00+00:00
+[2021-05-15 20:27:44,186] {logging_mixin.py:104} INFO - world
+[2021-05-15 20:27:44,187] {python.py:118} INFO - Done. Returned value was: None
+[2021-05-15 20:27:44,190] {taskinstance.py:1185} INFO - Marking task as SUCCESS. dag_id=airflow_tutorial_v01, task_id=print_world, execution_date=20170623T130000, start_date=20210515T192744, end_date=20210515T192744
+[2021-05-15 20:27:44,199] {taskinstance.py:1246} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-05-15 20:27:44,233] {local_task_job.py:146} INFO - Task exited with return code 0

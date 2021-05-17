@@ -1,0 +1,74 @@
+[2021-05-16 21:34:06,077] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: matches_links.get_rugby_pass_match_data 2021-04-24T10:00:00+00:00 [queued]>
+[2021-05-16 21:34:06,081] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: matches_links.get_rugby_pass_match_data 2021-04-24T10:00:00+00:00 [queued]>
+[2021-05-16 21:34:06,081] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-16 21:34:06,081] {taskinstance.py:1069} INFO - Starting attempt 7 of 8
+[2021-05-16 21:34:06,081] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-16 21:34:06,086] {taskinstance.py:1089} INFO - Executing <Task(BashOperator): get_rugby_pass_match_data> on 2021-04-24T10:00:00+00:00
+[2021-05-16 21:34:06,087] {standard_task_runner.py:52} INFO - Started process 75954 to run task
+[2021-05-16 21:34:06,093] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'matches_links', 'get_rugby_pass_match_data', '2021-04-24T10:00:00+00:00', '--job-id', '16', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/matches_links/matches_links.py', '--cfg-path', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmpwlc16z6e', '--error-file', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmph54lb29p']
+[2021-05-16 21:34:06,094] {standard_task_runner.py:77} INFO - Job 16: Subtask get_rugby_pass_match_data
+[2021-05-16 21:34:06,121] {logging_mixin.py:104} INFO - Running <TaskInstance: matches_links.get_rugby_pass_match_data 2021-04-24T10:00:00+00:00 [running]> on host Henrys-MacBook-Pro.local
+[2021-05-16 21:34:06,142] {taskinstance.py:1281} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=me
+AIRFLOW_CTX_DAG_ID=matches_links
+AIRFLOW_CTX_TASK_ID=get_rugby_pass_match_data
+AIRFLOW_CTX_EXECUTION_DATE=2021-04-24T10:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2021-04-24T10:00:00+00:00
+[2021-05-16 21:34:06,143] {bash.py:135} INFO - Tmp dir root location: 
+ /var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T
+[2021-05-16 21:34:06,144] {bash.py:158} INFO - Running command: Rscript /Users/harry/rugby_data_project_airflow/R/scripts/create_matches_table.R
+[2021-05-16 21:34:06,150] {bash.py:169} INFO - Output:
+[2021-05-16 21:34:07,315] {bash.py:173} INFO - ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──
+[2021-05-16 21:34:07,320] {bash.py:173} INFO - ✔ ggplot2 3.3.3     ✔ purrr   0.3.3
+[2021-05-16 21:34:07,320] {bash.py:173} INFO - ✔ tibble  3.0.4     ✔ dplyr   1.0.2
+[2021-05-16 21:34:07,320] {bash.py:173} INFO - ✔ tidyr   1.1.2     ✔ stringr 1.4.0
+[2021-05-16 21:34:07,321] {bash.py:173} INFO - ✔ readr   1.3.1     ✔ forcats 0.5.0
+[2021-05-16 21:34:07,399] {bash.py:173} INFO - ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+[2021-05-16 21:34:07,399] {bash.py:173} INFO - ✖ dplyr::filter() masks stats::filter()
+[2021-05-16 21:34:07,399] {bash.py:173} INFO - ✖ dplyr::lag()    masks stats::lag()
+[2021-05-16 21:34:07,410] {bash.py:173} INFO - 
+[2021-05-16 21:34:07,410] {bash.py:173} INFO - Attaching package: ‘lubridate’
+[2021-05-16 21:34:07,410] {bash.py:173} INFO - 
+[2021-05-16 21:34:07,411] {bash.py:173} INFO - The following objects are masked from ‘package:base’:
+[2021-05-16 21:34:07,411] {bash.py:173} INFO - 
+[2021-05-16 21:34:07,411] {bash.py:173} INFO -     date, intersect, setdiff, union
+[2021-05-16 21:34:07,412] {bash.py:173} INFO - 
+[2021-05-16 21:34:07,413] {bash.py:173} INFO - Loading required package: xml2
+[2021-05-16 21:34:07,420] {bash.py:173} INFO - 
+[2021-05-16 21:34:07,421] {bash.py:173} INFO - Attaching package: ‘rvest’
+[2021-05-16 21:34:07,421] {bash.py:173} INFO - 
+[2021-05-16 21:34:07,421] {bash.py:173} INFO - The following object is masked from ‘package:purrr’:
+[2021-05-16 21:34:07,422] {bash.py:173} INFO - 
+[2021-05-16 21:34:07,422] {bash.py:173} INFO -     pluck
+[2021-05-16 21:34:07,422] {bash.py:173} INFO - 
+[2021-05-16 21:34:07,422] {bash.py:173} INFO - The following object is masked from ‘package:readr’:
+[2021-05-16 21:34:07,423] {bash.py:173} INFO - 
+[2021-05-16 21:34:07,423] {bash.py:173} INFO -     guess_encoding
+[2021-05-16 21:34:07,423] {bash.py:173} INFO - 
+[2021-05-16 21:34:07,452] {bash.py:173} INFO - [1] "Getting autumn_nations_cup links"
+[2021-05-16 21:34:09,506] {bash.py:173} INFO - [1] "autumn_nations_cup saved"
+[2021-05-16 21:34:09,507] {bash.py:173} INFO - [1] "Getting premiership links"
+[2021-05-16 21:34:12,373] {bash.py:173} INFO - [1] "premiership saved"
+[2021-05-16 21:34:12,374] {bash.py:173} INFO - [1] "Getting six_nations links"
+[2021-05-16 21:34:14,487] {bash.py:173} INFO - [1] "six_nations saved"
+[2021-05-16 21:34:14,487] {bash.py:173} INFO - [1] "Getting the_rugby_championship links"
+[2021-05-16 21:34:24,494] {bash.py:173} INFO - Error in open.connection(x, "rb") :
+[2021-05-16 21:34:24,496] {bash.py:173} INFO -   Timeout was reached: [www.rugbypass.com] Operation timed out after 10002 milliseconds with 0 out of 0 bytes received
+[2021-05-16 21:34:24,496] {bash.py:173} INFO - Calls: get_rugby_pass_links -> read_html -> read_html.default
+[2021-05-16 21:34:24,497] {bash.py:173} INFO - Execution halted
+[2021-05-16 21:34:24,524] {bash.py:177} INFO - Command exited with return code 1
+[2021-05-16 21:34:24,531] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/operators/bash.py", line 180, in execute
+    raise AirflowException('Bash command failed. The command returned a non-zero exit code.')
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code.
+[2021-05-16 21:34:24,533] {taskinstance.py:1525} INFO - Marking task as UP_FOR_RETRY. dag_id=matches_links, task_id=get_rugby_pass_match_data, execution_date=20210424T100000, start_date=20210516T203406, end_date=20210516T203424
+[2021-05-16 21:34:24,583] {local_task_job.py:146} INFO - Task exited with return code 1

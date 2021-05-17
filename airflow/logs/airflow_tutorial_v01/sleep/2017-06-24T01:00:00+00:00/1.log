@@ -1,0 +1,42 @@
+[2021-05-15 20:29:16,044] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: airflow_tutorial_v01.sleep 2017-06-24T01:00:00+00:00 [queued]>
+[2021-05-15 20:29:16,050] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: airflow_tutorial_v01.sleep 2017-06-24T01:00:00+00:00 [queued]>
+[2021-05-15 20:29:16,050] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-15 20:29:16,050] {taskinstance.py:1069} INFO - Starting attempt 1 of 2
+[2021-05-15 20:29:16,050] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-15 20:29:16,054] {taskinstance.py:1089} INFO - Executing <Task(BashOperator): sleep> on 2017-06-24T01:00:00+00:00
+[2021-05-15 20:29:16,056] {standard_task_runner.py:52} INFO - Started process 66934 to run task
+[2021-05-15 20:29:16,061] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'airflow_tutorial_v01', 'sleep', '2017-06-24T01:00:00+00:00', '--job-id', '1669', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/Untitled.py', '--cfg-path', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmpoi1zalww', '--error-file', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmpn6wluogb']
+[2021-05-15 20:29:16,062] {standard_task_runner.py:77} INFO - Job 1669: Subtask sleep
+[2021-05-15 20:29:16,091] {logging_mixin.py:104} INFO - Running <TaskInstance: airflow_tutorial_v01.sleep 2017-06-24T01:00:00+00:00 [running]> on host henrys-macbook-pro.local
+[2021-05-15 20:29:16,113] {taskinstance.py:1281} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=me
+AIRFLOW_CTX_DAG_ID=airflow_tutorial_v01
+AIRFLOW_CTX_TASK_ID=sleep
+AIRFLOW_CTX_EXECUTION_DATE=2017-06-24T01:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2017-06-24T01:00:00+00:00
+[2021-05-15 20:29:16,114] {bash.py:135} INFO - Tmp dir root location: 
+ /var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T
+[2021-05-15 20:29:16,115] {bash.py:158} INFO - Running command: sleep 5
+[2021-05-15 20:29:16,121] {bash.py:169} INFO - Output:
+[2021-05-15 20:29:21,116] {local_task_job.py:174} WARNING - The recorded hostname henrys-macbook-pro.local does not match this instance's hostname 1.0.0.127.in-addr.arpa
+[2021-05-15 20:29:21,125] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 66934
+[2021-05-15 20:29:21,125] {taskinstance.py:1265} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-05-15 20:29:21,126] {bash.py:185} INFO - Sending SIGTERM signal to bash process group
+[2021-05-15 20:29:21,131] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/operators/bash.py", line 171, in execute
+    for raw_line in iter(self.sub_process.stdout.readline, b''):
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1267, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2021-05-15 20:29:21,134] {taskinstance.py:1525} INFO - Marking task as UP_FOR_RETRY. dag_id=airflow_tutorial_v01, task_id=sleep, execution_date=20170624T010000, start_date=20210515T192916, end_date=20210515T192921
+[2021-05-15 20:29:21,154] {process_utils.py:66} INFO - Process psutil.Process(pid=66936, status='terminated', started='20:29:16') (66936) terminated with exit code None
+[2021-05-15 20:29:21,155] {process_utils.py:66} INFO - Process psutil.Process(pid=66934, status='terminated', exitcode=1, started='20:29:16') (66934) terminated with exit code 1

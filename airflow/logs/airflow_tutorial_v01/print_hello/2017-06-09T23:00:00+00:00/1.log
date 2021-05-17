@@ -1,0 +1,52 @@
+[2021-05-15 18:10:48,438] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: airflow_tutorial_v01.print_hello 2017-06-09T23:00:00+00:00 [queued]>
+[2021-05-15 18:10:48,488] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: airflow_tutorial_v01.print_hello 2017-06-09T23:00:00+00:00 [queued]>
+[2021-05-15 18:10:48,489] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-15 18:10:48,490] {taskinstance.py:1069} INFO - Starting attempt 1 of 2
+[2021-05-15 18:10:48,490] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-15 18:10:48,538] {taskinstance.py:1089} INFO - Executing <Task(BashOperator): print_hello> on 2017-06-09T23:00:00+00:00
+[2021-05-15 18:10:48,550] {standard_task_runner.py:52} INFO - Started process 41005 to run task
+[2021-05-15 18:10:48,659] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'airflow_tutorial_v01', 'print_hello', '2017-06-09T23:00:00+00:00', '--job-id', '646', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/Untitled.py', '--cfg-path', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmppe1njhyb', '--error-file', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmp4_nxt9pi']
+[2021-05-15 18:10:48,683] {standard_task_runner.py:77} INFO - Job 646: Subtask print_hello
+[2021-05-15 18:17:16,368] {logging_mixin.py:104} INFO - Running <TaskInstance: airflow_tutorial_v01.print_hello 2017-06-09T23:00:00+00:00 [running]> on host Henrys-MacBook-Pro.local
+[2021-05-15 18:17:17,723] {local_task_job.py:174} WARNING - The recorded hostname Henrys-MacBook-Pro.local does not match this instance's hostname 1.0.0.127.in-addr.arpa
+[2021-05-15 18:17:17,730] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 41005
+[2021-05-15 18:17:17,730] {taskinstance.py:1265} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-05-15 18:17:17,731] {bash.py:185} INFO - Sending SIGTERM signal to bash process group
+[2021-05-15 18:17:17,735] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1272, in _prepare_and_execute_task_with_callbacks
+    self.clear_xcom_data()
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 662, in clear_xcom_data
+    XCom.execution_date == self.execution_date,
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/operators.py", line 365, in __eq__
+    return self.operate(eq, other)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/orm/attributes.py", line 226, in operate
+    return op(self.comparator, *other, **kwargs)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/operators.py", line 365, in __eq__
+    return self.operate(eq, other)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/orm/properties.py", line 367, in operate
+    return op(self.__clause_element__(), *other, **kwargs)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/annotation.py", line 104, in __eq__
+    return self.__element.__class__.__eq__(self, other)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/operators.py", line 365, in __eq__
+    return self.operate(eq, other)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 762, in operate
+    return op(self.comparator, *other, **kwargs)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/operators.py", line 365, in __eq__
+    return self.operate(eq, other)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/type_api.py", line 945, in operate
+    return super(TypeDecorator.Comparator, self).operate(
+  File "<string>", line 1, in <lambda>
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/type_api.py", line 68, in operate
+    return o[0](self.expr, op, *(other + o[1:]), **kwargs)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1267, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2021-05-15 18:17:17,787] {taskinstance.py:1525} INFO - Marking task as UP_FOR_RETRY. dag_id=airflow_tutorial_v01, task_id=print_hello, execution_date=20170609T230000, start_date=20210515T171048, end_date=20210515T171717
+[2021-05-15 18:17:17,826] {process_utils.py:66} INFO - Process psutil.Process(pid=41005, status='terminated', exitcode=1, started='18:10:48') (41005) terminated with exit code 1

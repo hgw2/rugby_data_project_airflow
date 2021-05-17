@@ -1,0 +1,25 @@
+[2021-05-17 09:08:35,855] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: matches_links.latest_only 2021-04-24T10:00:00+00:00 [queued]>
+[2021-05-17 09:08:35,859] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: matches_links.latest_only 2021-04-24T10:00:00+00:00 [queued]>
+[2021-05-17 09:08:35,859] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-17 09:08:35,859] {taskinstance.py:1069} INFO - Starting attempt 1 of 2
+[2021-05-17 09:08:35,859] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-17 09:08:35,867] {taskinstance.py:1089} INFO - Executing <Task(LatestOnlyOperator): latest_only> on 2021-04-24T10:00:00+00:00
+[2021-05-17 09:08:35,869] {standard_task_runner.py:52} INFO - Started process 7624 to run task
+[2021-05-17 09:08:35,880] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'matches_links', 'latest_only', '2021-04-24T10:00:00+00:00', '--job-id', '6', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/matches_links/matches_links.py', '--cfg-path', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmp0mbmr6fw', '--error-file', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmp3c_7mdwv']
+[2021-05-17 09:08:35,881] {standard_task_runner.py:77} INFO - Job 6: Subtask latest_only
+[2021-05-17 09:08:35,913] {logging_mixin.py:104} INFO - Running <TaskInstance: matches_links.latest_only 2021-04-24T10:00:00+00:00 [running]> on host 1.0.0.127.in-addr.arpa
+[2021-05-17 09:08:35,937] {taskinstance.py:1281} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=me
+AIRFLOW_CTX_DAG_ID=matches_links
+AIRFLOW_CTX_TASK_ID=latest_only
+AIRFLOW_CTX_EXECUTION_DATE=2021-04-24T10:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2021-04-24T10:00:00+00:00
+[2021-05-17 09:08:35,940] {latest_only.py:53} INFO - Checking latest only with left_window: 2021-04-25 10:00:00+00:00 right_window: 2021-04-26 10:00:00+00:00 now: 2021-05-17T08:08:35.938162+00:00
+[2021-05-17 09:08:35,940] {latest_only.py:61} INFO - Not latest execution, skipping downstream.
+[2021-05-17 09:08:35,941] {skipmixin.py:124} INFO - Following branch []
+[2021-05-17 09:08:35,943] {skipmixin.py:155} INFO - Skipping tasks ['get_autumn_nations_cup_links']
+[2021-05-17 09:08:35,958] {taskinstance.py:1185} INFO - Marking task as SUCCESS. dag_id=matches_links, task_id=latest_only, execution_date=20210424T100000, start_date=20210517T080835, end_date=20210517T080835
+[2021-05-17 09:08:35,969] {taskinstance.py:1246} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-05-17 09:08:35,976] {local_task_job.py:146} INFO - Task exited with return code 0

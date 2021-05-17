@@ -1,0 +1,15 @@
+[2021-05-15 20:21:30,735] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: airflow_tutorial_v01.print_world 2017-06-22T06:00:00+00:00 [queued]>
+[2021-05-15 20:21:30,803] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: airflow_tutorial_v01.print_world 2017-06-22T06:00:00+00:00 [queued]>
+[2021-05-15 20:21:30,804] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-15 20:21:30,804] {taskinstance.py:1069} INFO - Starting attempt 1 of 2
+[2021-05-15 20:21:30,805] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-15 20:21:30,835] {taskinstance.py:1089} INFO - Executing <Task(PythonOperator): print_world> on 2017-06-22T06:00:00+00:00
+[2021-05-15 20:21:30,838] {standard_task_runner.py:52} INFO - Started process 63596 to run task
+[2021-05-15 20:21:30,850] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'airflow_tutorial_v01', 'print_world', '2017-06-22T06:00:00+00:00', '--job-id', '1544', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/Untitled.py', '--cfg-path', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmpctn8oqu5', '--error-file', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmptsz58yq7']
+[2021-05-15 20:21:30,853] {standard_task_runner.py:77} INFO - Job 1544: Subtask print_world
+[2021-05-15 20:21:34,021] {logging_mixin.py:104} INFO - Running <TaskInstance: airflow_tutorial_v01.print_world 2017-06-22T06:00:00+00:00 [running]> on host 1.0.0.127.in-addr.arpa
+[2021-05-15 20:21:34,034] {local_task_job.py:174} WARNING - The recorded hostname Henrys-MacBook-Pro.local does not match this instance's hostname 1.0.0.127.in-addr.arpa
+[2021-05-15 20:21:34,060] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 63596
+[2021-05-15 20:21:34,068] {process_utils.py:66} INFO - Process psutil.Process(pid=63596, status='terminated', exitcode=<Negsignal.SIGTERM: -15>, started='20:21:30') (63596) terminated with exit code Negsignal.SIGTERM

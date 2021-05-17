@@ -1,0 +1,9 @@
+{
+    "sortOrder": [
+        {
+            "columnIndex": 2,
+            "ascending": true
+        }
+    ],
+    "path": "~/rugby_data_project_airflow/R/scripts"
+}

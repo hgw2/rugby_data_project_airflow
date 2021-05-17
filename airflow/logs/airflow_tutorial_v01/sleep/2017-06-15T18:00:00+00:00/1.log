@@ -1,0 +1,85 @@
+[2021-05-15 18:49:44,562] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: airflow_tutorial_v01.sleep 2017-06-15T18:00:00+00:00 [queued]>
+[2021-05-15 18:49:44,566] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: airflow_tutorial_v01.sleep 2017-06-15T18:00:00+00:00 [queued]>
+[2021-05-15 18:49:44,566] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-15 18:49:44,566] {taskinstance.py:1069} INFO - Starting attempt 1 of 2
+[2021-05-15 18:49:44,566] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-15 18:49:44,571] {taskinstance.py:1089} INFO - Executing <Task(BashOperator): sleep> on 2017-06-15T18:00:00+00:00
+[2021-05-15 18:49:44,573] {standard_task_runner.py:52} INFO - Started process 51503 to run task
+[2021-05-15 18:49:44,578] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'airflow_tutorial_v01', 'sleep', '2017-06-15T18:00:00+00:00', '--job-id', '1068', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/Untitled.py', '--cfg-path', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmpxrof3hde', '--error-file', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmpvz0vmr87']
+[2021-05-15 18:49:44,579] {standard_task_runner.py:77} INFO - Job 1068: Subtask sleep
+[2021-05-15 18:49:44,607] {logging_mixin.py:104} INFO - Running <TaskInstance: airflow_tutorial_v01.sleep 2017-06-15T18:00:00+00:00 [running]> on host henrys-macbook-pro.local
+[2021-05-15 18:49:44,628] {taskinstance.py:1281} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=me
+AIRFLOW_CTX_DAG_ID=airflow_tutorial_v01
+AIRFLOW_CTX_TASK_ID=sleep
+AIRFLOW_CTX_EXECUTION_DATE=2017-06-15T18:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2017-06-15T18:00:00+00:00
+[2021-05-15 18:49:44,628] {bash.py:135} INFO - Tmp dir root location: 
+ /var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T
+[2021-05-15 18:49:44,629] {bash.py:158} INFO - Running command: sleep 5
+[2021-05-15 18:49:44,635] {bash.py:169} INFO - Output:
+[2021-05-15 18:49:49,638] {local_task_job.py:174} WARNING - The recorded hostname henrys-macbook-pro.local does not match this instance's hostname 1.0.0.127.in-addr.arpa
+[2021-05-15 18:49:49,642] {bash.py:177} INFO - Command exited with return code 0
+[2021-05-15 18:49:49,646] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 51503
+[2021-05-15 18:49:49,646] {taskinstance.py:1265} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-05-15 18:49:49,646] {bash.py:185} INFO - Sending SIGTERM signal to bash process group
+[2021-05-15 18:49:49,647] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1344, in _execute_task
+    self.xcom_push(key=XCOM_RETURN_KEY, value=result)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1922, in xcom_push
+    XCom.set(
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/xcom.py", line 91, in set
+    session.query(cls).filter(
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3926, in delete
+    delete_op.exec_()
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1697, in exec_
+    self._do_exec()
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1930, in _do_exec
+    self._execute_stmt(delete_stmt)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1702, in _execute_stmt
+    self.result = self.query._execute_crud(stmt, self.mapper)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3568, in _execute_crud
+    return conn.execute(stmt, self._params)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1115, in _execute_clauseelement
+    compiled_sql = elem.compile(
+  File "<string>", line 1, in <lambda>
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 481, in compile
+    return self._compiler(dialect, bind=bind, **kw)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 487, in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/compiler.py", line 592, in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/compiler.py", line 322, in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/compiler.py", line 352, in process
+    return obj._compiler_dispatch(self, **kwargs)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/visitors.py", line 96, in _compiler_dispatch
+    return meth(self, **kw)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/compiler.py", line 2776, in visit_delete
+    t = delete_stmt._whereclause._compiler_dispatch(self, **kw)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/visitors.py", line 96, in _compiler_dispatch
+    return meth(self, **kw)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/compiler.py", line 1038, in visit_clauselist
+    sep = OPERATORS[clauselist.operator]
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1266, in signal_handler
+    task_copy.on_kill()
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/operators/bash.py", line 187, in on_kill
+    os.killpg(os.getpgid(self.sub_process.pid), signal.SIGTERM)
+ProcessLookupError: [Errno 3] No such process
+[2021-05-15 18:49:49,670] {taskinstance.py:1525} INFO - Marking task as UP_FOR_RETRY. dag_id=airflow_tutorial_v01, task_id=sleep, execution_date=20170615T180000, start_date=20210515T174944, end_date=20210515T174949
+[2021-05-15 18:49:49,700] {process_utils.py:66} INFO - Process psutil.Process(pid=51503, status='terminated', exitcode=1, started='18:49:44') (51503) terminated with exit code 1

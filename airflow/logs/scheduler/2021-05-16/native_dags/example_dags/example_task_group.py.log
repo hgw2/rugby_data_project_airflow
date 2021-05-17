@@ -1,0 +1,257 @@
+[2021-05-16 08:54:15,971] {scheduler_job.py:182} INFO - Started process (PID=41867) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 08:54:15,971] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 08:54:15,971] {logging_mixin.py:104} INFO - [2021-05-16 08:54:15,971] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 08:54:15,977] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 08:54:16,002] {logging_mixin.py:104} INFO - [2021-05-16 08:54:16,001] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 08:54:16,007] {logging_mixin.py:104} INFO - [2021-05-16 08:54:16,007] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 08:54:16,016] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.045 seconds
+[2021-05-16 09:01:59,417] {scheduler_job.py:182} INFO - Started process (PID=43353) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:01:59,418] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 09:01:59,418] {logging_mixin.py:104} INFO - [2021-05-16 09:01:59,418] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:01:59,425] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:01:59,458] {logging_mixin.py:104} INFO - [2021-05-16 09:01:59,458] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 09:01:59,465] {logging_mixin.py:104} INFO - [2021-05-16 09:01:59,465] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 09:01:59,473] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.057 seconds
+[2021-05-16 09:06:29,540] {scheduler_job.py:182} INFO - Started process (PID=45225) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:06:29,541] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 09:06:29,541] {logging_mixin.py:104} INFO - [2021-05-16 09:06:29,541] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:06:29,548] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:06:29,578] {logging_mixin.py:104} INFO - [2021-05-16 09:06:29,578] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 09:06:29,585] {logging_mixin.py:104} INFO - [2021-05-16 09:06:29,585] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 09:06:29,592] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.053 seconds
+[2021-05-16 09:10:34,076] {scheduler_job.py:182} INFO - Started process (PID=46991) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:10:34,077] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 09:10:34,077] {logging_mixin.py:104} INFO - [2021-05-16 09:10:34,077] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:10:34,085] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:10:34,116] {logging_mixin.py:104} INFO - [2021-05-16 09:10:34,115] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 09:10:34,122] {logging_mixin.py:104} INFO - [2021-05-16 09:10:34,122] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 09:10:34,129] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.054 seconds
+[2021-05-16 09:14:59,670] {scheduler_job.py:182} INFO - Started process (PID=48780) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:14:59,672] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 09:14:59,672] {logging_mixin.py:104} INFO - [2021-05-16 09:14:59,672] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:14:59,680] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:14:59,716] {logging_mixin.py:104} INFO - [2021-05-16 09:14:59,716] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 09:14:59,724] {logging_mixin.py:104} INFO - [2021-05-16 09:14:59,724] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 09:14:59,732] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.062 seconds
+[2021-05-16 09:19:53,316] {scheduler_job.py:182} INFO - Started process (PID=50662) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:19:53,317] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 09:19:53,317] {logging_mixin.py:104} INFO - [2021-05-16 09:19:53,317] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:19:53,326] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:19:53,367] {logging_mixin.py:104} INFO - [2021-05-16 09:19:53,367] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 09:19:53,375] {logging_mixin.py:104} INFO - [2021-05-16 09:19:53,375] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 09:19:53,385] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.070 seconds
+[2021-05-16 09:24:39,506] {scheduler_job.py:182} INFO - Started process (PID=52471) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:24:39,507] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 09:24:39,508] {logging_mixin.py:104} INFO - [2021-05-16 09:24:39,508] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:24:39,516] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:24:39,555] {logging_mixin.py:104} INFO - [2021-05-16 09:24:39,555] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 09:24:39,564] {logging_mixin.py:104} INFO - [2021-05-16 09:24:39,564] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 09:24:39,573] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.068 seconds
+[2021-05-16 09:29:30,116] {scheduler_job.py:182} INFO - Started process (PID=54303) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:29:30,118] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 09:29:30,118] {logging_mixin.py:104} INFO - [2021-05-16 09:29:30,118] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:29:30,127] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:29:30,165] {logging_mixin.py:104} INFO - [2021-05-16 09:29:30,165] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 09:29:30,174] {logging_mixin.py:104} INFO - [2021-05-16 09:29:30,173] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 09:29:30,183] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.067 seconds
+[2021-05-16 09:34:21,257] {scheduler_job.py:182} INFO - Started process (PID=56041) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:34:21,259] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 09:34:21,259] {logging_mixin.py:104} INFO - [2021-05-16 09:34:21,259] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:34:21,268] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:34:21,308] {logging_mixin.py:104} INFO - [2021-05-16 09:34:21,307] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 09:34:21,316] {logging_mixin.py:104} INFO - [2021-05-16 09:34:21,316] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 09:34:21,325] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.068 seconds
+[2021-05-16 09:39:15,351] {scheduler_job.py:182} INFO - Started process (PID=57852) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:39:15,353] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 09:39:15,353] {logging_mixin.py:104} INFO - [2021-05-16 09:39:15,353] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:39:15,362] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:39:15,402] {logging_mixin.py:104} INFO - [2021-05-16 09:39:15,402] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 09:39:15,411] {logging_mixin.py:104} INFO - [2021-05-16 09:39:15,411] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 09:39:15,421] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.070 seconds
+[2021-05-16 09:44:14,323] {scheduler_job.py:182} INFO - Started process (PID=59585) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:44:14,325] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 09:44:14,325] {logging_mixin.py:104} INFO - [2021-05-16 09:44:14,325] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:44:14,334] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 09:44:14,375] {logging_mixin.py:104} INFO - [2021-05-16 09:44:14,375] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 09:44:14,384] {logging_mixin.py:104} INFO - [2021-05-16 09:44:14,384] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 09:44:14,393] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.071 seconds
+[2021-05-16 13:21:58,646] {scheduler_job.py:182} INFO - Started process (PID=4974) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 13:21:58,646] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 13:21:58,647] {logging_mixin.py:104} INFO - [2021-05-16 13:21:58,647] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 13:21:58,653] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 13:21:58,679] {logging_mixin.py:104} INFO - [2021-05-16 13:21:58,679] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 13:21:58,684] {logging_mixin.py:104} INFO - [2021-05-16 13:21:58,684] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 13:21:58,690] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.045 seconds
+[2021-05-16 13:22:51,998] {scheduler_job.py:182} INFO - Started process (PID=5714) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 13:22:51,999] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 13:22:52,000] {logging_mixin.py:104} INFO - [2021-05-16 13:22:52,000] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 13:22:52,008] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 13:22:52,032] {logging_mixin.py:104} INFO - [2021-05-16 13:22:52,032] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 13:22:52,037] {logging_mixin.py:104} INFO - [2021-05-16 13:22:52,037] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 13:22:52,043] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.045 seconds
+[2021-05-16 13:23:43,516] {scheduler_job.py:182} INFO - Started process (PID=6429) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 13:23:43,517] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 13:23:43,517] {logging_mixin.py:104} INFO - [2021-05-16 13:23:43,517] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 13:23:43,523] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 13:23:43,547] {logging_mixin.py:104} INFO - [2021-05-16 13:23:43,547] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 13:23:43,552] {logging_mixin.py:104} INFO - [2021-05-16 13:23:43,552] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 13:23:43,558] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.043 seconds
+[2021-05-16 20:06:32,077] {scheduler_job.py:182} INFO - Started process (PID=14309) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:06:32,079] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 20:06:32,079] {logging_mixin.py:104} INFO - [2021-05-16 20:06:32,079] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:06:32,087] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:06:32,111] {logging_mixin.py:104} INFO - [2021-05-16 20:06:32,111] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 20:06:32,116] {logging_mixin.py:104} INFO - [2021-05-16 20:06:32,116] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 20:06:32,122] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.045 seconds
+[2021-05-16 20:07:25,957] {scheduler_job.py:182} INFO - Started process (PID=14837) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:07:25,958] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 20:07:25,959] {logging_mixin.py:104} INFO - [2021-05-16 20:07:25,959] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:07:25,966] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:07:25,994] {logging_mixin.py:104} INFO - [2021-05-16 20:07:25,993] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 20:07:26,000] {logging_mixin.py:104} INFO - [2021-05-16 20:07:26,000] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 20:07:26,008] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.051 seconds
+[2021-05-16 20:08:18,303] {scheduler_job.py:182} INFO - Started process (PID=15464) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:08:18,304] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 20:08:18,304] {logging_mixin.py:104} INFO - [2021-05-16 20:08:18,304] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:08:18,311] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:08:18,335] {logging_mixin.py:104} INFO - [2021-05-16 20:08:18,335] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 20:08:18,341] {logging_mixin.py:104} INFO - [2021-05-16 20:08:18,341] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 20:08:18,347] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.044 seconds
+[2021-05-16 20:09:06,338] {scheduler_job.py:182} INFO - Started process (PID=15950) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:09:06,338] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 20:09:06,339] {logging_mixin.py:104} INFO - [2021-05-16 20:09:06,339] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:09:06,344] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:09:06,368] {logging_mixin.py:104} INFO - [2021-05-16 20:09:06,368] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 20:09:06,373] {logging_mixin.py:104} INFO - [2021-05-16 20:09:06,373] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 20:09:06,380] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds
+[2021-05-16 20:09:51,615] {scheduler_job.py:182} INFO - Started process (PID=16542) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:09:51,616] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 20:09:51,616] {logging_mixin.py:104} INFO - [2021-05-16 20:09:51,616] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:09:51,622] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:09:51,645] {logging_mixin.py:104} INFO - [2021-05-16 20:09:51,645] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 20:09:51,650] {logging_mixin.py:104} INFO - [2021-05-16 20:09:51,650] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 20:09:51,655] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.040 seconds
+[2021-05-16 20:10:43,451] {scheduler_job.py:182} INFO - Started process (PID=17108) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:10:43,452] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 20:10:43,453] {logging_mixin.py:104} INFO - [2021-05-16 20:10:43,453] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:10:43,460] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:10:43,483] {logging_mixin.py:104} INFO - [2021-05-16 20:10:43,483] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 20:10:43,488] {logging_mixin.py:104} INFO - [2021-05-16 20:10:43,488] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 20:10:43,493] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds
+[2021-05-16 20:11:35,144] {scheduler_job.py:182} INFO - Started process (PID=17629) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:11:35,145] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 20:11:35,146] {logging_mixin.py:104} INFO - [2021-05-16 20:11:35,146] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:11:35,153] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:11:35,177] {logging_mixin.py:104} INFO - [2021-05-16 20:11:35,177] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 20:11:35,183] {logging_mixin.py:104} INFO - [2021-05-16 20:11:35,183] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 20:11:35,191] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.048 seconds
+[2021-05-16 20:12:22,447] {scheduler_job.py:182} INFO - Started process (PID=18219) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:12:22,448] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 20:12:22,449] {logging_mixin.py:104} INFO - [2021-05-16 20:12:22,449] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:12:22,455] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:12:22,478] {logging_mixin.py:104} INFO - [2021-05-16 20:12:22,478] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 20:12:22,483] {logging_mixin.py:104} INFO - [2021-05-16 20:12:22,483] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 20:12:22,488] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds
+[2021-05-16 20:13:10,232] {scheduler_job.py:182} INFO - Started process (PID=18840) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:13:10,233] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 20:13:10,234] {logging_mixin.py:104} INFO - [2021-05-16 20:13:10,233] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:13:10,240] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:13:10,262] {logging_mixin.py:104} INFO - [2021-05-16 20:13:10,262] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 20:13:10,267] {logging_mixin.py:104} INFO - [2021-05-16 20:13:10,267] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 20:13:10,274] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds
+[2021-05-16 20:14:02,949] {scheduler_job.py:182} INFO - Started process (PID=19513) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:14:02,950] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 20:14:02,951] {logging_mixin.py:104} INFO - [2021-05-16 20:14:02,950] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:14:02,957] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:14:02,983] {logging_mixin.py:104} INFO - [2021-05-16 20:14:02,982] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 20:14:02,988] {logging_mixin.py:104} INFO - [2021-05-16 20:14:02,988] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 20:14:02,994] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2021-05-16 20:14:48,627] {scheduler_job.py:182} INFO - Started process (PID=20036) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:14:48,628] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 20:14:48,629] {logging_mixin.py:104} INFO - [2021-05-16 20:14:48,629] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:14:48,634] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:14:48,658] {logging_mixin.py:104} INFO - [2021-05-16 20:14:48,657] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 20:14:48,663] {logging_mixin.py:104} INFO - [2021-05-16 20:14:48,663] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 20:14:48,669] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds
+[2021-05-16 20:15:37,598] {scheduler_job.py:182} INFO - Started process (PID=21401) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:15:37,600] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 20:15:37,601] {logging_mixin.py:104} INFO - [2021-05-16 20:15:37,600] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:15:37,612] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:15:37,643] {logging_mixin.py:104} INFO - [2021-05-16 20:15:37,643] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 20:15:37,649] {logging_mixin.py:104} INFO - [2021-05-16 20:15:37,649] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2021-05-14 00:00:00+00:00
+[2021-05-16 20:15:37,657] {scheduler_job.py:190} INFO - Processing /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.059 seconds
+[2021-05-16 20:16:50,228] {scheduler_job.py:182} INFO - Started process (PID=22236) to work on /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:16:50,229] {scheduler_job.py:629} INFO - Processing file /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-05-16 20:16:50,229] {logging_mixin.py:104} INFO - [2021-05-16 20:16:50,229] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:16:50,235] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2021-05-16 20:16:50,771] {scheduler_job.py:193} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: serialized_dag
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/jobs/scheduler_job.py", line 184, in _run_file_processor
+    result: Tuple[int, int] = dag_file_processor.process_file(
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/jobs/scheduler_job.py", line 648, in process_file
+    dagbag.sync_to_db()
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/dagbag.py", line 556, in sync_to_db
+    for attempt in run_with_db_retries(logger=self.log):
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/tenacity/__init__.py", line 390, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/tenacity/__init__.py", line 368, in iter
+    raise retry_exc.reraise()
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/tenacity/__init__.py", line 186, in reraise
+    raise self.last_attempt.result()
+  File "/Users/harry/opt/anaconda3/lib/python3.8/concurrent/futures/_base.py", line 432, in result
+    return self.__get_result()
+  File "/Users/harry/opt/anaconda3/lib/python3.8/concurrent/futures/_base.py", line 388, in __get_result
+    raise self._exception
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/dagbag.py", line 568, in sync_to_db
+    serialize_errors.extend(_serialze_dag_capturing_errors(dag, session))
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/dagbag.py", line 542, in _serialze_dag_capturing_errors
+    SerializedDagModel.write_dag(
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/serialized_dag.py", line 117, in write_dag
+    if session.query(
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3523, in scalar
+    ret = self.one()
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3490, in one
+    ret = self.one_or_none()
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3459, in one_or_none
+    ret = list(self)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: serialized_dag
+[SQL: SELECT EXISTS (SELECT * 
+FROM serialized_dag 
+WHERE serialized_dag.dag_id = ? AND serialized_dag.last_updated > ?) AS anon_1]
+[parameters: ('example_task_group', '2021-05-16 19:16:20.769537')]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)

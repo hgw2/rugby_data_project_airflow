@@ -1,0 +1,28 @@
+[2021-05-16 21:32:13,584] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: matches_links.get_rugby_pass_match_data 2021-04-24T10:00:00+00:00 [queued]>
+[2021-05-16 21:32:13,589] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: matches_links.get_rugby_pass_match_data 2021-04-24T10:00:00+00:00 [queued]>
+[2021-05-16 21:32:13,589] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-16 21:32:13,589] {taskinstance.py:1069} INFO - Starting attempt 5 of 6
+[2021-05-16 21:32:13,589] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-16 21:32:13,595] {taskinstance.py:1089} INFO - Executing <Task(BashOperator): get_rugby_pass_match_data> on 2021-04-24T10:00:00+00:00
+[2021-05-16 21:32:13,597] {standard_task_runner.py:52} INFO - Started process 74624 to run task
+[2021-05-16 21:32:13,604] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'matches_links', 'get_rugby_pass_match_data', '2021-04-24T10:00:00+00:00', '--job-id', '12', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/matches_links/matches_links.py', '--cfg-path', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmp0ly228d3', '--error-file', '/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/tmpve7x3z3o']
+[2021-05-16 21:32:13,606] {standard_task_runner.py:77} INFO - Job 12: Subtask get_rugby_pass_match_data
+[2021-05-16 21:32:13,639] {logging_mixin.py:104} INFO - Running <TaskInstance: matches_links.get_rugby_pass_match_data 2021-04-24T10:00:00+00:00 [running]> on host Henrys-MacBook-Pro.local
+[2021-05-16 21:32:13,662] {taskinstance.py:1281} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=me
+AIRFLOW_CTX_DAG_ID=matches_links
+AIRFLOW_CTX_TASK_ID=get_rugby_pass_match_data
+AIRFLOW_CTX_EXECUTION_DATE=2021-04-24T10:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill__2021-04-24T10:00:00+00:00
+[2021-05-16 21:32:13,662] {bash.py:135} INFO - Tmp dir root location: 
+ /var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T
+[2021-05-16 21:32:13,663] {bash.py:158} INFO - Running command: Rscript /Users/harry/rugby_data_project_airflow/R/scripts/create_matches_table.R
+[2021-05-16 21:32:13,669] {bash.py:169} INFO - Output:
+[2021-05-16 21:32:13,850] {bash.py:173} INFO - [1] "/private/var/folders/tp/ft4rfkmn1kz3dyw8hlfz1dxw0000gn/T/airflowtmpkn3zgdmb"
+[2021-05-16 21:32:13,851] {bash.py:173} INFO - [1] "/Users/harry/rugby_data_project_airflow"
+[2021-05-16 21:32:13,861] {bash.py:177} INFO - Command exited with return code 0
+[2021-05-16 21:32:13,873] {taskinstance.py:1185} INFO - Marking task as SUCCESS. dag_id=matches_links, task_id=get_rugby_pass_match_data, execution_date=20210424T100000, start_date=20210516T203213, end_date=20210516T203213
+[2021-05-16 21:32:13,882] {taskinstance.py:1246} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-05-16 21:32:13,904] {local_task_job.py:146} INFO - Task exited with return code 0

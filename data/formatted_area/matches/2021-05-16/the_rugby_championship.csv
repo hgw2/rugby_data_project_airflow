@@ -1,0 +1,7 @@
+match,date,venue,competition,season,competition_type,rugby_pass_url
+australia_vs_new_zealand,2020-10-31,anz_stadium,the_rugby_championship,2020,international,https://www.rugbypass.com/live/the-rugby-championship/australia-vs-new-zealand-at-anz-stadium-on-31102020/2020/stats/
+australia_vs_new_zealand,2020-11-07,suncorp_stadium,the_rugby_championship,2020,international,https://www.rugbypass.com/live/the-rugby-championship/australia-vs-new-zealand-at-suncorp-stadium-on-07112020/2020/stats/
+new_zealand_vs_argentina,2020-11-14,bankwest_stadium,the_rugby_championship,2020,international,https://www.rugbypass.com/live/the-rugby-championship/new-zealand-vs-argentina-at-bankwest-stadium-on-14112020/2020/stats/
+argentina_vs_australia,2020-11-21,mcdonald_jones_stadium,the_rugby_championship,2020,international,https://www.rugbypass.com/live/the-rugby-championship/argentina-vs-australia-at-mcdonald-jones-stadium-on-21112020/2020/stats/
+argentina_vs_new_zealand,2020-11-28,mcdonald_jones_stadium,the_rugby_championship,2020,international,https://www.rugbypass.com/live/the-rugby-championship/argentina-vs-new-zealand-at-mcdonald-jones-stadium-on-28112020/2020/stats/
+australia_vs_argentina,2020-12-05,bankwest_stadium,the_rugby_championship,2020,international,https://www.rugbypass.com/live/the-rugby-championship/australia-vs-argentina-at-bankwest-stadium-on-05122020/2020/stats/
