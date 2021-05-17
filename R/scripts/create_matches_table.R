@@ -1,6 +1,13 @@
 
 setwd( "/Users/harry/rugby_data_project_airflow")
 
+args <- commandArgs(trailingOnly = TRUE)
+
+link <- args[1]
+
+exc_date <- args[2]
+
+
 source("R/variables/data_variables.R")
 source("R/functions/create_links_table_functions.R")
 library(tidyverse)
