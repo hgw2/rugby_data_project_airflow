@@ -243,4 +243,4 @@ vignettes/*.pdf
 
 #airflow
 airflow/*
-!airflow/dags/*
+!*/airflow/dags/*
