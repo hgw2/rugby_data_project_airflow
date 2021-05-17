@@ -3131,3 +3131,17 @@ Traceback (most recent call last):
 NameError: name 'sdfsdasd' is not defined
 [2021-05-17 21:12:18,148] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/harry/rugby_data_project_airflow/airflow/dags/matches_links/matches_links.py
 [2021-05-17 21:12:18,170] {scheduler_job.py:190} INFO - Processing /Users/harry/rugby_data_project_airflow/airflow/dags/matches_links/matches_links.py took 0.053 seconds
+[2021-05-17 21:14:54,383] {scheduler_job.py:182} INFO - Started process (PID=95724) to work on /Users/harry/rugby_data_project_airflow/airflow/dags/matches_links/matches_links.py
+[2021-05-17 21:14:54,384] {scheduler_job.py:629} INFO - Processing file /Users/harry/rugby_data_project_airflow/airflow/dags/matches_links/matches_links.py for tasks to queue
+[2021-05-17 21:14:54,385] {logging_mixin.py:104} INFO - [2021-05-17 21:14:54,385] {dagbag.py:451} INFO - Filling up the DagBag from /Users/harry/rugby_data_project_airflow/airflow/dags/matches_links/matches_links.py
+[2021-05-17 21:14:54,413] {logging_mixin.py:104} INFO - [2021-05-17 21:14:54,412] {dagbag.py:308} ERROR - Failed to import: /Users/harry/rugby_data_project_airflow/airflow/dags/matches_links/matches_links.py
+Traceback (most recent call last):
+  File "/Users/harry/.local/share/virtualenvs/rugby_data_project_airflow-d2RAFQI6/lib/python3.8/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/harry/rugby_data_project_airflow/airflow/dags/matches_links/matches_links.py", line 56, in <module>
+    sdfsdasd
+NameError: name 'sdfsdasd' is not defined
+[2021-05-17 21:14:54,414] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/harry/rugby_data_project_airflow/airflow/dags/matches_links/matches_links.py
+[2021-05-17 21:14:54,437] {scheduler_job.py:190} INFO - Processing /Users/harry/rugby_data_project_airflow/airflow/dags/matches_links/matches_links.py took 0.054 seconds
